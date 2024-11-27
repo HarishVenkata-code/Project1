@@ -10,3 +10,7 @@ print(sum)
 let num1 = [[1, 2], [3, 4], [5, 6]]
 let sum1 = num1.flatMap({$0})
 print(sum1)
+let numbers1 = [1, 2, 3, 4, 5]
+let evenNumbers = numbers1.filter { $0 % 2 == 0 }
+
+print(evenNumbers)
